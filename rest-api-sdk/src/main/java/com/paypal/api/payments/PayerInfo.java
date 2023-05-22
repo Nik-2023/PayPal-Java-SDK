@@ -81,6 +81,8 @@ public class PayerInfo extends PayPalModel {
 	 * Payer’s tax ID. Only supported when the `payment_method` is set to `paypal`.
 	 */
 	private String taxId;
+	
+	
 
 	/**
 	 * Payer’s tax ID type. Allowed values: `BR_CPF` or `BR_CNPJ`. Only supported when the `payment_method` is set to `paypal`.
