@@ -86,6 +86,10 @@ public class PayerInfo extends PayPalModel {
 	 * Payer’s tax ID type. Allowed values: `BR_CPF` or `BR_CNPJ`. Only supported when the `payment_method` is set to `paypal`.
 	 */
 	private String taxIdType;
+	
+	private String SSN;
+	
+	private String tin;
 
 	/**
 	 * Two-letter registered country code of the payer to identify the buyer country.
